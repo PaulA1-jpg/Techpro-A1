@@ -1,0 +1,31 @@
+class Person {
+    //Private variables: cannot be accessed directly outside this class
+    private String name;
+    private int age;
+    
+    //Public metjods to access private data (Encapsulation)
+    public void setData(String n, int a) {
+    name = n;
+    age = a;
+    }
+    
+    public void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        }
+    }
+    
+    public class Main {
+        public static void main(String[] args) {
+            Person p = new Person();
+            
+            //p.name = "John"; not allowed, name is private
+            //p.age = 20; not allowed, age is private
+            
+            //must use public methods to set values
+            p.setData("John",20);
+            
+            //display the stored data
+            p.display();
+            }
+        }
