@@ -1,6 +1,4 @@
-//Seatwork #5
 
-//1. ABSTRACTION: Abstract class defining the blueprint for an account
 abstract class BankAccount {
     //2. ENCAPSULATION: Private fields protected from direct access
     private String accountNumber;
