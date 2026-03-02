@@ -11,7 +11,7 @@ public class SeatworkTwelve {
         if (amount <= 0) {
             System.out.println("Invalid deposit amount. Try again.");
             return; // skip invalid deposit
-        }
+        } 
         balances[accountNumber] += amount;
         System.out.println("Deposit successful! New balance: " + balances[accountNumber]);
     }
