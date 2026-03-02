@@ -17,7 +17,7 @@ public class SeatworkSixThird {
     public static void main(String[] args) {
         Person p1 = null;
         //Person p1 = new Person();
-        //p1.Person("Jacob", "Techpro");
+        //p1.Person("Acuzar", "Techpro");
 
         try {
             p1.displayInfo();
